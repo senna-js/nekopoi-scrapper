@@ -7,7 +7,7 @@ let re = /-\d+[Xx]\d+/;
 const bypass = async (link) => {
     await axios({
         method: 'post',
-        url: 'https://bypass.city/bypass?bypass=',
+        url: 'https://bypass.city/',
         data: new URLSearchParams({
             url: link //URL to be bypassed
         })
